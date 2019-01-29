@@ -6,4 +6,4 @@ a multi-ROI trace plotter allowing for interactive, real-time exploration of the
 
 Here below is shown the main interface for the MultiROI TZ profiler plugin:
 
-[](/img/fncel-12-00098-g006.jpg)
+![](/img/fncel-12-00098-g006.jpg)
