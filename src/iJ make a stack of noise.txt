@@ -1,0 +1,18 @@
+
+newImage("HyperStack", "16-bit composite-mode label", 10, 10, 1, 1, 800);
+
+for (z=0; z<nSlices(); z++) {
+run("Next Slice [>]");
+run("Add Specified Noise...", "standard=500");
+}
+
+run("Size...", "width=100 height=100 depth=800 constrain average interpolation=Bilinear");
+//run("Brightness/Contrast...");
+run("Next Slice [>]");
+run("Enhance Contrast", "saturated=0.35");
+makeRectangle(27, 12, 12, 11);
+roiManager("Add");
+makeRectangle(43, 41, 16, 11);
+roiManager("Add");
+makeRectangle(27, 73, 24, 13);
+roiManager("Add");
